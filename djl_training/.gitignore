@@ -3,6 +3,9 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+djl_training/src/main/resources/static/data/utzap50k-images-square/
+C:\Users\fabio\DJL_Training\djl_training\src\main\resources\static\data\ut-zap50k-images-square\ut-zap50k-images-square\
+djl_training\src\main\resources\static\data\ut-zap50k-images-square\ut-zap50k-images-square\
 
 ### STS ###
 .apt_generated
