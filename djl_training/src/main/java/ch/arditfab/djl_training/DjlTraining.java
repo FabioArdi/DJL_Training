@@ -35,7 +35,7 @@ public class DjlTraining {
 
     public static void main(String[] args) throws IOException, TranslateException {
     
-        ImageFolder dataset = initDataset("src/main/resources/static/data/ut-zap50k-images-square");
+        ImageFolder dataset = initDataset("djl_training/src/main/resources/static/data/ut-zap50k-images-square");
         RandomAccessDataset[] datasets = dataset.randomSplit(8,2);
 
         Loss loss = Loss.softmaxCrossEntropyLoss();
